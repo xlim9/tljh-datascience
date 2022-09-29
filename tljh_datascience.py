@@ -73,7 +73,7 @@ def tljh_post_install():
 
     # finally we need to download the docker image so it's ready
     def get_docker_image():
-        subprocess.call("sudo docker pull jupyter/datascience-notebook:python-3.8.8", shell=True)
+         # subprocess.call("sudo docker pull jupyter/datascience-notebook:python-3.8.8", shell=True)
         restart_tljh()
         
     # and the restart TLJH and rebuild jupyterlab
